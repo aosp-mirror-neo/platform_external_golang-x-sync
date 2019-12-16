@@ -1,0 +1,6 @@
+// Useful utility.
+bootstrap_go_package {
+    name: "golang-x-sync-errgroup",
+    pkgPath: "golang.org/x/sync/errgroup",
+    srcs: ["errgroup/errgroup.go"],
+}
