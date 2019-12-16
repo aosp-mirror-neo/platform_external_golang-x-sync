@@ -1,0 +1,18 @@
+name: "golang-x-sync"
+description:
+    "This repository provides Go concurrency primitives in addition to the "
+    "ones provided by the language and 'sync' and 'sync/atomic' packages."
+
+third_party {
+  url {
+    type: HOMEPAGE
+    value: "https://go.googlesource.com/sync/"
+  }
+  url {
+    type: GIT
+    value: "https://go.googlesource.com/sync/"
+  }
+  version: "112230192c58"
+  last_upgrade_date { year: 2019 month: 11 day: 22 }
+  license_type: NOTICE
+}
