@@ -4,3 +4,9 @@ bootstrap_go_package {
     pkgPath: "golang.org/x/sync/errgroup",
     srcs: ["errgroup/errgroup.go"],
 }
+
+bootstrap_go_package {
+    name: "golang-x-sync-semaphore",
+    pkgPath: "golang.org/x/sync/semaphore",
+    srcs: ["semaphore/semaphore.go"],
+}
